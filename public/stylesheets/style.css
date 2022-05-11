@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.sidebar {
+  width: 30%;
+  height: 100%;
+  background-color: rgb(241, 241, 241);
+  padding: 1vmax;
+}
+
+.sidebar input {
+  width: 100%;
+  height: 5vmax;
+  padding: 1vmax;
+  font: 100 2vmax "special elite";
+}
+
+.sidebar ul {
+  padding-top: 1vmax;
+}
+
+.sidebar li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2vmax;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: rgb(3, 144, 252);
+}
+
+.file {
+  width: 70%;
+  height: 100%;
+  /* background-color: green; */
+}
+
+.file form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.file button {
+  width: 8vmax;
+  height: 3vmax;
+  font: 400 1.6vmax "Gilroy";
+  background-color: tomato;
+  border: none;
+  color: #fff;
+  margin: 1vmax;
+}
+
+.file textarea {
+  width: 100%;
+  height: calc(100% - 3vmax);
+  border: none;
+  padding: 1vmax;
+  outline: none;
+  font: 400 1.5vmax "Gilroy";
+}
